@@ -1,0 +1,6 @@
+{
+  "extends": "@colussi/tsconfig",
+  "compilerOptions": {
+    "module": "ESNext"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "bcrypt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supercharge/promise-pool": "^2.3.2",
+    "bcrypt": "^5.1.0",
+    "p-map": "5.4",
+    "run-parallel": "^1.2.0"
+  },
+  "devDependencies": {
+    "@colussi/eslint-config": "^1.0.19",
+    "@colussi/prettier-config": "^1.0.3",
+    "@colussi/tsconfig": "^2.0.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/run-parallel": "^1.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@colussi/eslint-config"
+    ]
+  },
+  "prettier": "@colussi/prettier-config"
+}
